@@ -42,11 +42,11 @@ $(document).ready(function () {
 	    intervalP,
 	    work = {
 			minute: 24,
-			sec: 60
+			sec: 59
 		},
 	    pause = {
 			minute: 4,
-			sec: 60,
+			sec: 59,
 		},
 	    audio = new Audio('./audio/front-desk-bells-daniel_simon.mp3');
 	$('#minutes').text('To start click ');
