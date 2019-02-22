@@ -17,63 +17,23 @@
 	<meta name=theme-color content=#fafafa>
 </head>
 <body>
-<div class="container-fluid no_padding">
+<div class="container">
 	<div id=main_banner>
-		<div class=headers_container><h1 class="center main_color_text bold">KÓŁKO I KRZYŻYK</h1></div>
+		<div class=headers_container><h1 class="center main_color_text bold">TOMATO TIMER</h1></div>
 		<div class=icon_container><i class="fas fa-angle-down"></i></div>
 	</div>
-	<div id=main_gallery class=row>
-		<div id=popup>
-			<div class=layer></div>
-			<div class=box_info><p></p><i class="fas fa-times icon"></i></div>
+	<div id=main_gallery  class="center row">
+		<div id="work" class="col-md-5 col-sm-12 btn main_color_background white_color_text">Start working (25min)</div>
+		<div id="break" class="col-md-5 offset-md-2 col-sm-12 btn glight_pink_color_background white_color_text">Start break (5min)</div>
+		<div id="time" class="col-sm-12 grey_color_text">
+			<div id="minutes"></div><div id="sec"></div>
 		</div>
-		<div class="input_container  col-lg-12 col-md-12">
-			<div>
-				<label for="player1">Gracz 1: </label>
-				<input type="text" id="player1">
-			</div>
-			<div>
-				<label for="player2">Gracz 2: </label>
-				<input type="text" id="player2">
-			</div>
-		</div>
-		<div class="col-lg-4 col-md-4 col-sm-12 user_container active" data-user=first>
-			<div class=icon_container2><i class="fas fa-user user"></i><br>
-				<p></p></div>
-		</div>
-		<div class="col-lg-4 col-md-4 col-sm-12 squer_container">
-			<div id=one class=squer onclick data-value></div>
-			<div id=two class=squer onclick data-value></div>
-			<div id=three class=squer onclick data-value></div>
-			<div id=four class=squer onclick data-value></div>
-			<div id=five class=squer onclick data-value></div>
-			<div id=six class=squer onclick data-value></div>
-			<div id=seven class=squer onclick data-value></div>
-			<div id=eight class=squer onclick data-value></div>
-			<div id=nine class=squer onclick data-value></div>
-		</div>
-		<div class="col-lg-4 col-md-4 col-sm-12 user_container" data-user=second>
-			<div class=icon_container2><i class="fas fa-user user"></i> <br>
-				<p></p></div>
-		</div>
-	</div>
-	<div class=clearfix></div>
-	<div id=point_table>
-		<div class="one_row first_player col-xs-12">
-			<div class=name></div>
-			<div class=point></div>
-			<div class=time_description>Twój czas: <span class="time"></span>s</div>
-		</div>
-		<div class="one_row second_player col-xs-12">
-			<div class=name></div>
-			<div class=point></div>
-			<div class="time_description">Twój czas: <span class="time"></span>s</div>
-		</div>
+		<div id="subtitle" class="col-sm-12 grey_color_text"></div>
 	</div>
 	<div id=footer class=row>
 		<div class=icon_container><i class="fas fa-angle-up"></i></div>
 		<div class="headers_container center col-sm-12">
-			<h2 class="center main_color_text bold col-sm-12">Zapraszam do kontaktu</h2>
+			<h2 class="center main_color_text bold col-sm-12">Feel free to contact me!</h2>
 			<h3 class="center grey_color_text col-sm-12">Katarzyna Moskała</h3>
 			<h3 class="center grey_color_text col-sm-12">Front-end developer</h3>
 			<a href="https://kmoskala.github.io/" class=grey_color_text>PORTFOLIO</a></div>
